@@ -1,4 +1,7 @@
-class Circle():
+from .shape import Shape
+
+
+class Circle(Shape):
     def __init__(self, r):
         self.radius = r
 
@@ -12,3 +15,5 @@ class Circle():
 NewCircle = Circle(8)
 print(NewCircle.area())
 print(NewCircle.perimeter())
+
+
