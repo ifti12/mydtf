@@ -1,2 +1,3 @@
 class Shape:
-    pass
+    a = 500
+    b = 700
