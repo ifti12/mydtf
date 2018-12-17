@@ -11,6 +11,9 @@ class Circle(Shape):
     def perimeter(self):
         return 2 * self.radius * 3.14
 
+    def func(self):
+        return self.radius + 1
+
 
 NewCircle = Circle(8)
 print(NewCircle.area())
