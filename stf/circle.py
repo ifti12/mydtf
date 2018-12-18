@@ -15,7 +15,7 @@ class Circle(Shape):
         return self.radius + 1
 
 
-NewCircle = Circle(9) #master branch changes to commit commit2.  ----------
+NewCircle = Circle(1000) #master branch changes to commit commit2.  ----------
 print(NewCircle.area())
 print(NewCircle.perimeter())
 
