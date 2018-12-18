@@ -15,7 +15,7 @@ class Circle(Shape):
         return self.radius + 1
 
 
-NewCircle = Circle(9) # remote
+NewCircle = Circle(9)
 print(NewCircle.area())
 print(NewCircle.perimeter())
 
